@@ -3,12 +3,12 @@ We are going to make our very own first web application with React.
 The theme of our web application is a video game called Final Fantasy VII Remake.
 
 # Goals
-    * Design web applications with CSS
-    * Understand main concepts of React
+ * Design web applications with CSS
+ * Understand main concepts of React
 
 # What is React
-    * React is a javascript library (or a framework)
-    * Javascript is the programming language of HTML and the web
+ * React is a javascript library (or a framework)
+ * Javascript is the programming language of HTML and the web
 
 If you don't know javascipt, it's okay! This course will only cover the important fundamentals of React.
 Main fundamentals of React are Handling Events, State and Life Cycle, Rendering Elements and Components.

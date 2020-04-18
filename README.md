@@ -24,7 +24,7 @@ At our main index.html file in the public folder, there's a div with id called r
 This a 'root' DOM node, it's the place where everything appears or render managed by React.
 
 ## Update the Rendered Element
-Every element that has been created or has been updated will be rendered by `ReactDOM.render`.
+Every element that has been created or has been updated will be rendered by `ReactDOM.render()`.
 You pass the `<App />` component to `ReactDOM.render()` for elements to render at the 'root' DOM.
 
 ```

@@ -1,12 +1,14 @@
-import React from 'react';
+import React, { Component } from 'react';
 import logo from '../images/ff7_logo.png';
 
-const TopBanner = () => {
-    return(
-        <div className="banner_container">
-            <img src={logo} className="banner_logo" />
-        </div>
-    )
+class TopBanner extends Component {
+    render() {
+        return(
+            <div className="banner_container">
+                <img src={logo} className="banner_logo" />
+            </div>
+        )
+    }
 }
 
 export default TopBanner;

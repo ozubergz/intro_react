@@ -3,6 +3,9 @@ import ReactDOM from 'react-dom';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 
+
+// ReactDOM updates the root every time any element changes
+// This is what makes all elements to show up (or render)
 ReactDOM.render(
   <App />, 
   document.getElementById('root')

@@ -4,7 +4,8 @@ import TopBanner from './components/TopBanner';
 import CharacterContainer from './containers/CharacterContainer';
 
 // Main App Component
-// functional component aka stateless component
+// functional component is also known as stateless component
+// functional component does not require a render() method
 function App() {
   return (
     <div className="App">

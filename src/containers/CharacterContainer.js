@@ -9,8 +9,9 @@ class CharacterContainer extends Component {
         
     }
     
-    // all class components must have render method
-    // The render() method is required and will always be called 
+    // all class components must have render() method
+    // render() method is required and will always be called 
+    // render() method must always have a return
     render() {
         return (
             <div>

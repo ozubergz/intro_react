@@ -38,7 +38,7 @@ ReactDOM.render(
 ```
 
 ## Rendering Components
-Components in React are independent reusable pieces. They are like Javascript functions that have properties (normally called 'props'). Think of components as lego pieces with 'properties' (or 'props').
+Components in React are independent reusable pieces. They are like Javascript functions that have can properties (normally called 'props'). Think of components as lego pieces with 'properties' (or 'props') that you can pass.
 
 You can write components like this:
 ```

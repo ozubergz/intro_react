@@ -1,6 +1,7 @@
 body {
   margin: 0;
   padding: 0;
+  /* background-color: #f7f7f7; */
 }
 
 .banner_container {
@@ -9,6 +10,6 @@ body {
   text-align: center;
 }
 
-.banner_img {
+.banner_logo {
   height: 200px;
 }

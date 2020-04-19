@@ -16,8 +16,6 @@ The theme of our web application is a video game called Final Fantasy VII Remake
 If you don't know javascipt, it's okay! This course will only cover the important fundamentals of React.
 Main fundamentals of React are Handling Events, State and Life Cycle, Rendering Elements and Components.
 
-# First Concept to Understand React
-
 ## Rendering an Element into the DOM
 At our main index.html file in the public folder, there's a `<div>` with "id called root.
 ```
@@ -38,7 +36,6 @@ ReactDOM.render(
     document.getElementbyId('root')
 )
 ```
-# Components and Props
 
 ## Rendering Components
 Components in React are independent reusable pieces. They are like Javascript functions that have properties (normally called 'props'). Think of components as lego pieces with 'properties' (or 'props').

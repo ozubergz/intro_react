@@ -26,10 +26,6 @@ body {
   justify-content: center;
 }
 
-.card {
-  border-radius: 10px;
-}
-
 .card-image {
   width: 200px;
   height: 200px;
@@ -40,4 +36,18 @@ body {
   background-color: #8ec6c5;
   margin: 10px;
   border-radius: 10px;
+}
+
+.card-image:hover {
+  cursor: pointer;
+}
+
+.modal {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background-color: black;
+  opacity: 0.5;
 }

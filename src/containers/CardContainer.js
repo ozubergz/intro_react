@@ -22,9 +22,9 @@ class CharacterContainer extends Component {
         });
     }
 
-    handleClick = (character) => {
-        console.log(character)
-    }
+    // handleClick = (character) => {
+    //     console.log(character)
+    // }
     
     // all class components must have render() method
     // render() method is required and will always be called 
@@ -46,7 +46,7 @@ class CharacterContainer extends Component {
                             key={character.id} 
                             character={character}
                             //pass the handleClick method as props
-                            handleClick={this.handleClick}
+                            // handleClick={this.handleClick}
                             />
                     })}
                 </div>

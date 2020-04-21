@@ -13,11 +13,13 @@ class Card extends Component {
             <div className="card">
                 <div 
                     className="card-image"
-                    onClick={() => this.props.handleClick(character)}
-                    //inline styling, set character images
+                    // onClick={() => this.props.handleClick(character)}
+
+                    //inline styling, set character images to backgroundImage
                     style={{ 
                         backgroundImage: `url(${character.image})` 
-                }}></div>
+                }}>
+                </div>
             </div>
         )
     }

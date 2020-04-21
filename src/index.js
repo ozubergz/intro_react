@@ -8,7 +8,7 @@ import * as serviceWorker from './serviceWorker';
 // ReactDOM updates the root every time any element changes
 // This is what makes all elements to show up (or render)
 ReactDOM.render(
-  // wrap App parent component with BrowserRouter
+  // wrap App component in BrowserRouter
   <BrowserRouter>
     <App /> 
   </BrowserRouter>,

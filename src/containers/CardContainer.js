@@ -21,10 +21,6 @@ class CharacterContainer extends Component {
             this.setState({characters: data})
         });
     }
-
-    // handleClick = (character) => {
-    //     console.log(character)
-    // }
     
     // all class components must have render() method
     // render() method is required and will always be called 
@@ -40,13 +36,15 @@ class CharacterContainer extends Component {
                 <div className="card-container">
                     {this.state.characters.map(character => {
                         // console.log(character)
-                        // pass character to card as props
-                        // list of elements require a key prop assigned to an id
                         return <Card 
-                            key={character.id} 
-                            character={character}
-                            //pass the handleClick method as props
-                            // handleClick={this.handleClick}
+                                // list of elements require a key prop assigned to an unique id
+                                key={character.id} 
+
+                                // pass character to Card as props
+                                character={character}
+
+                                //handleClick is passed as props
+                                handleClick={this.props.handleClick}
                             />
                     })}
                 </div>

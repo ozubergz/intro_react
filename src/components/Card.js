@@ -4,7 +4,7 @@ class Card extends Component {
     
     render() {
 
-        // this is deconstructing, getting property from props 
+        // this is deconstruction, getting property from props (an object)
         // same thing as this.prop.character, but shorter
         const { character } = this.props;
         // console.log(character);
@@ -13,7 +13,7 @@ class Card extends Component {
             <div className="card">
                 <div 
                     className="card-image"
-                    // onClick={() => this.props.handleClick(character)}
+                    onClick={() => this.props.handleClick(character)}
 
                     //inline styling, set character images to backgroundImage
                     style={{ 

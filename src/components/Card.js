@@ -12,7 +12,8 @@ class Card extends Component {
         return(
             <div className="card">
                 <div 
-                    className="card-image" 
+                    className="card-image"
+                    onClick={() => this.props.handleClick(character)}
                     //inline styling, set character images
                     style={{ 
                         backgroundImage: `url(${character.image})` 

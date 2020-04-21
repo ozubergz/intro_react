@@ -1,7 +1,7 @@
 body {
   margin: 0;
   padding: 0;
-  /* background-color: #f7f7f7; */
+  background-color: #f7f7f7;
 }
 
 .banner_container {
@@ -26,6 +26,10 @@ body {
   justify-content: center;
 }
 
+.card {
+  border-radius: 10px;
+}
+
 .card-image {
   width: 200px;
   height: 200px;
@@ -33,6 +37,7 @@ body {
   background-repeat: no-repeat;
   background-position-y: top;
   background-position-x: center;
-  background-color: gray;
+  background-color: #8ec6c5;
   margin: 10px;
+  border-radius: 10px;
 }

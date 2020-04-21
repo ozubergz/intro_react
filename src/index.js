@@ -1,13 +1,17 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
+import { BrowserRouter } from 'react-router-dom'
 import * as serviceWorker from './serviceWorker';
 
 
 // ReactDOM updates the root every time any element changes
 // This is what makes all elements to show up (or render)
 ReactDOM.render(
-  <App />, 
+  // wrap App parent component with BrowserRouter
+  <BrowserRouter>
+    <App /> 
+  </BrowserRouter>,
   document.getElementById('root')
 );
 

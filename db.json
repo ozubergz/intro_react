@@ -3,7 +3,7 @@
         {
             "id": 1,
             "name": "Cloud Strife",
-            "japanese:": "クラウド・ストライフ",
+            "japanese": "クラウド・ストライフ",
             "age": 21,
             "birthday": "August 11th",
             "occupation": "Mercernary",
@@ -14,7 +14,7 @@
         {
             "id": 2,
             "name": "Barret Wallace",
-            "japanese:": "バレット・ウォーレス",
+            "japanese": "バレット・ウォーレス",
             "age": 37,
             "birthday": "December 15th",
             "occupation": "Leader of Avalanche",
@@ -25,7 +25,7 @@
         {
             "id": 3,
             "name": "Tifa Lockhart",
-            "japanese:": "ティファ・ロックハート",
+            "japanese": "ティファ・ロックハート",
             "age": 20,
             "birthday": "May 30rd",
             "occupation": "Bartender",
@@ -36,7 +36,7 @@
         {
             "id": 4,
             "name": "Aerith Gainsborough",
-            "japanese:": "エアリス・ゲインズブール",
+            "japanese": "エアリス・ゲインズブール",
             "age": 22,
             "birthday": "February 7th",
             "occupation": "Flower seller",
@@ -47,7 +47,7 @@
         {
             "id": 5,
             "name": "Red XIII",
-            "japanese:": "レッドXIII",
+            "japanese": "レッドXIII",
             "age": 48,
             "birthday": "Unknown",
             "occupation": "Research specimen",
@@ -58,7 +58,7 @@
         {
             "id": 6,
             "name": "Biggs",
-            "japanese:": "ビックス",
+            "japanese": "ビックス",
             "age": "Unknown",
             "birthday": "Unknown",
             "occupation": "Member of Avalanche",
@@ -69,7 +69,7 @@
         {
             "id": 7,
             "name": "Jessie Rasberry",
-            "japanese:": "ジェシー",
+            "japanese": "ジェシー",
             "age": "Unknown",
             "birthday": "Unknown",
             "occupation": "Member of Avalanche",
@@ -80,7 +80,7 @@
         {
             "id": 8,
             "name": "Wedge",
-            "japanese:": "ウェッジ",
+            "japanese": "ウェッジ",
             "age": "Unknown",
             "birthday": "Unknown",
             "occupation": "Member of Avalanche",
@@ -91,7 +91,7 @@
         {
             "id": 9,
             "name": "Sephiroth",
-            "japanese:": "セフィロス",
+            "japanese": "セフィロス",
             "age": 27,
             "birthday": "Unknown",
             "occupation": "Soldier 1st Class",
@@ -102,7 +102,7 @@
         {
             "id": 10,
             "name": "President Shinra",
-            "japanese:": "プレジデント神羅",
+            "japanese": "プレジデント神羅",
             "age": "Unknown",
             "birthday": "Unknown",
             "occupation": "President of Shinra",
@@ -113,7 +113,7 @@
         {
             "id": 11,
             "name": "Rufus Shinra",
-            "japanese:": "ルーファウス神羅",
+            "japanese": "ルーファウス神羅",
             "age": 25,
             "birthday": "Unknown",
             "occupation": "Vice President of Shinra",
@@ -124,7 +124,7 @@
         {
             "id": 12,
             "name": "Heidegger",
-            "japanese:": "ハイデッカー",
+            "japanese": "ハイデッカー",
             "age": "Unknow",
             "birthday": "Unknown",
             "occupation": "Head of Public Safety",
@@ -135,7 +135,7 @@
         {
             "id": 13,
             "name": "Reno",
-            "japanese:": "レノ",
+            "japanese": "レノ",
             "age": "Unknown",
             "birthday": "Unknown",
             "occupation": "Turk",
@@ -146,7 +146,7 @@
         {
             "id": 14,
             "name": "Rude",
-            "japanese:": "ルード",
+            "japanese": "ルード",
             "age": "Unknown",
             "birthday": "Unknown",
             "occupation": "Turk",
@@ -157,7 +157,7 @@
         {
             "id": 15,
             "name": "Tseng",
-            "japanese:": "ツォン",
+            "japanese": "ツォン",
             "age": "Unknown",
             "birthday": "Unknown",
             "occupation": "Leader of the Turks",
@@ -168,7 +168,7 @@
         {
             "id": 16,
             "name": "Reeve Tuesti",
-            "japanese:": "リーブ・トゥエスティ",
+            "japanese": "リーブ・トゥエスティ",
             "age": "35",
             "birthday": "Unknown",
             "occupation": "Head of Urban Development",
@@ -179,7 +179,7 @@
         {
             "id": 17,
             "name": "Palmer",
-            "japanese:": "パルマー",
+            "japanese": "パルマー",
             "age": "Unknown",
             "birthday": "Unknown",
             "occupation": "Head of the Space Program",
@@ -190,7 +190,7 @@
         {
             "id": 18,
             "name": "Professor Hojo",
-            "japanese:": "宝条",
+            "japanese": "宝条",
             "age": "Uknown",
             "birthday": "Uknown",
             "occupation": "Head of Shin-Ra's Science & Research Division",

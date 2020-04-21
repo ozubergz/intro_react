@@ -21,6 +21,12 @@ class App extends Component {
       });
     }
 
+    handleCloseClick = () => {
+      this.setState({
+        showModal: false
+      });
+    }
+
 
     render() {    
       return (
@@ -31,7 +37,7 @@ class App extends Component {
           handleClick={this.handleClick}
         />
 
-        { this.state.showModal ? <Modal character={this.state.character} /> : null }
+        { this.state.showModal ? <Modal handleCloseClick={this.handleCloseClick} character={this.state.character} /> : null }
       </div>
     );
   }

@@ -2,6 +2,7 @@ body {
   margin: 0;
   padding: 0;
   background-color: #f7f7f7;
+  font-family: 'Barlow', sans-serif;
 }
 
 .banner_container {
@@ -35,7 +36,7 @@ body {
   background-position-x: center;
   background-color: #8ec6c5;
   margin: 10px;
-  border-radius: 10px;
+  border-radius: 5px;
 }
 
 .card-image:hover {
@@ -52,6 +53,44 @@ body {
   overflow: auto;
 }
 
-.character-modal {
+.modal-body {
   background-color: white;
+  height: 660px;
+  width: 900px;
+  padding: 20px;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  margin: auto;
+  border-radius: 5px;
+}
+
+.modal-body > button {
+  border: none;
+  outline: 0;
+  color: #8ec6c5;  
+}
+
+button:hover{
+  cursor: pointer;
+}
+
+.modal-image {
+  float: left;
+  margin-right: 30px;
+  margin-left: 30px;
+}
+
+.table {
+  display: flex;
+}
+
+.columns {
+  display: flex;
+  flex-direction: column;
+}
+
+.col-1 {
+  font-weight: bold;
+  margin-right: 15px;
 }

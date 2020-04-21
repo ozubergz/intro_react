@@ -10,12 +10,15 @@ import Modal from './components/Modal';
 class App extends Component {
 
     state={
+      character: "",
       showModal: false
     }
     
     handleClick = (character) => {
-      console.log(character)
-      this.setState({ showModal: true })
+      this.setState({ 
+        character: character,
+        showModal: true
+      });
     }
 
 
@@ -28,7 +31,7 @@ class App extends Component {
           handleClick={this.handleClick}
         />
 
-        { this.state.showModal ? <Modal /> : null }
+        { this.state.showModal ? <Modal character={this.state.character} /> : null }
       </div>
     );
   }

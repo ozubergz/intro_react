@@ -13,3 +13,26 @@ body {
 .banner_logo {
   height: 200px;
 }
+
+.body-content {
+  padding: 20px;
+  margin: auto;
+  width: 80%;
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card-image {
+  width: 200px;
+  height: 200px;
+  background-size: 200px;
+  background-repeat: no-repeat;
+  background-position-y: top;
+  background-position-x: center;
+  background-color: gray;
+  margin: 10px;
+}

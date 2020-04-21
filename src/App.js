@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 import TopBanner from './components/TopBanner';
-import CharacterContainer from './containers/CharacterContainer';
+import CardContainer from './containers/CardContainer'
 
 // Main App Component
 // functional component is also known as stateless component
@@ -10,7 +10,7 @@ function App() {
   return (
     <div className="App">
       <TopBanner />
-      <CharacterContainer />
+      <CardContainer />
     </div>
   );
 }

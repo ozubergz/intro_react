@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import logo from '../images/ff7_logo.png';
 
-class TopBanner extends Component {
+class Banner extends Component {
     render() {
         return(
             <div className="banner_container">
@@ -11,4 +11,4 @@ class TopBanner extends Component {
     }
 }
 
-export default TopBanner;
+export default Banner;

@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
-import TopBanner from './components/TopBanner';
+import TopBanner from './components/Banner';
 import CardContainer from './containers/CardContainer';
 import Modal from './components/Modal';
 

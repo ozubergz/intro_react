@@ -36,7 +36,6 @@ class App extends Component {
           // pass handleClick as props to a child
           handleClick={this.handleClick}
         />
-
         { this.state.showModal ? <Modal handleCloseClick={this.handleCloseClick} character={this.state.character} /> : null }
       </div>
     );

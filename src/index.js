@@ -9,9 +9,15 @@ import * as serviceWorker from './serviceWorker';
 // This is what makes all elements to show up (or render)
 ReactDOM.render(
   // wrap App component in BrowserRouter
-  <BrowserRouter>
-    <App /> 
-  </BrowserRouter>,
+  
+  // StrictMode is a tool for highlighting potential problems in an application.
+  // StrictMode does not render any visible UI
+  // StrictMode activates additional checks and warnings for its descendants.
+  <React.StrictMode>
+    <BrowserRouter>
+      <App /> 
+    </BrowserRouter>
+  </React.StrictMode>,
   document.getElementById('root')
 );
 
